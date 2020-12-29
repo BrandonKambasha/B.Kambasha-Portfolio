@@ -1,0 +1,45 @@
+﻿
+
+
+header{background-color:blue;
+		color: yellow;
+		padding : 20px;
+		grid-area: header;
+		}
+
+nav{
+	/*display:block;
+	position:absolute;
+	top:0;
+	left:79%;
+	width :30%;
+	height:100vh;*/
+	background-color: gold;
+	grid-area:nav;
+}
+
+main{
+	background-color:darkblue;
+	color: white;
+	height:100vh;
+	grid-area:main;
+}
+
+
+
+
+footer{
+	background-color:darkgreen;
+	color: white;
+	grid-area:footer;
+}
+
+body
+	{display:grid;
+	grid-template-columns:20% 60% 20%;
+	grid-template-rows: auto;
+	grid-template-areas: "header header header"	
+						"nav main main"
+						"footer footer footer";
+
+}
