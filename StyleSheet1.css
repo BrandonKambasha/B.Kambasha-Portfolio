@@ -1,19 +1,22 @@
 ﻿
-
+h1{
+	font-style:oblique;
+	font-size:60px;
+}
 
 header{background-color:rgb(0, 0, 0);
 		color: yellow;
-		padding : 20px;
+		padding-left: 20%;
 		grid-area: header;
 		border-style: groove;
-		border-radius:5%;
+		
 		border-color:yellow;
 		}
 
 nav{
 	
 	border-style: groove;
-	border-radius:5%;
+	
 	border-color:yellow;
 	background-color: rgb(0, 0, 0);
 	grid-area:nav;
@@ -23,12 +26,20 @@ li{
 	
 	list-style-type:circle;
 	font-size: 40px;
+	font-style:oblique;
 	font-style:bold;
 	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+	color:yellow;
 }
 
 a:link{
 	color:yellow;
+}
+a:visited{
+	
+	text-decoration:none;
 }
 
 li:hover{
@@ -43,12 +54,13 @@ main{
 	grid-area:main;
 }
 
-
-
-
 footer{
 	background-color:darkgreen;
 	color: white;
+	border-style: groove;
+	border-radius:5%;
+	border-color:yellow;
+	background-color: rgb(0, 0, 0);
 	grid-area:footer;
 }
 
