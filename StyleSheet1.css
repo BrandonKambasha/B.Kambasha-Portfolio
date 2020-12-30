@@ -9,7 +9,7 @@ header{background-color:rgb(0, 0, 0);
 		grid-area: header;
 		border-style: groove;
 		border-color:yellow;
-		
+		z-index: 1;
 		}
 
 nav{
@@ -17,7 +17,15 @@ nav{
 	border-style: groove;
 	border-color:yellow;
 	background-color: rgb(0, 0, 0);
+	
+	position: fixed;
+	height:100%;
 	grid-area:nav;
+}
+
+ul{
+	position:relative;
+	top:20%;
 }
 
 li{
@@ -47,14 +55,16 @@ li:hover{
 }
 
 main{
-	/*background-color:white;*/
-	background-image: url('Images\Contact_page.png');
-	background-image:visible;
-	height:100vh;
+	/*background-color:yellowgreen;*/
+	height:100%;
 	grid-area:main;
 }
 
 footer{
+	overflow:hidden;
+	position: fixed;
+	width:100%;
+	bottom:0%;
 	background-color:darkgreen;
 	color: white;
 	border-style: groove;
@@ -83,7 +93,7 @@ form{
 	grid-template-columns: 50% 30%;
 	align-items: center;
 	grid-gap:2em;
-	margin-left: 10%;
+	margin-left: 5%;
 	padding:12px 20px;
 }
 
@@ -143,6 +153,10 @@ input[type="text"]{
 }
 .submit:active{
 	cursor:grabbing;
+}
+
+h2{
+	text-align: center;
 }
 
 
