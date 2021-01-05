@@ -7,10 +7,10 @@
 
 h1{
 	font-style:oblique;
-	font-size:60px;
+	font-size:45px;
 	text-decoration:underline;
 	text-align:center;
-    padding-left: 15%;
+    padding-left: 8%;
     display:inline;
 }
 
@@ -36,59 +36,20 @@ header{background-color:rgb(0,188,212);
 		grid-area: header;
 		border-style: groove;
 		border-color:yellow;
-		z-index:-1;
+		/*z-index:-1;*/
         }
 
 header>a{
 	
-            align-content:center;
-            font-size:30px;
-            padding-left: 8%;
-            visibility:visible;
+        align-content:center;
+        font-size:30px;
+        padding-left: 5%;
+        visibility:visible;
             
         }        
         
-.menu{
-    padding-top:0.8em;
-    height:0.5em;
-    width:2em;
-    display:block;
-    margin-left:1%;
-    border-top:0.25em solid black;
-    border-bottom:0.25em solid black;
-    border-radius:0.3em;
-
-}
-
-.menu:before{
-    content:'';
-    position:absolute;
-    width:2em;
-    top:2.5%;
-    left:1.6%;
-    border-top:0.2em solid black;
-}
-
-.menu:hover{
-    display:block;
-    border-top-color:red;
-    border-bottom-color:red;
-}
-
 nav{
-	
-	border-style: groove;
-	border-color:yellow;
-	background-color: rgb(0,188,212);
-	position: fixed;
-	height:100vh;
-    grid-area:nav;
     visibility:hidden;
-    
-}
-
-nav.active{
-    visibility:visible;
 }
 
 footer{
@@ -103,35 +64,6 @@ footer{
 	background-color: rgb(0,188,212);
 	grid-area:footer;
 	
-}
-
-nav>ul{
-	padding-top:2%;
-	position:relative;
-	top:20%;
-}
-
-nav>ul>li{
-	
-	list-style-type:none;
-	font-size: 40px;
-	font-style:oblique;
-	font-style:bold;
-	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-nav>ul>li>a{
-	color:white;
-}
-
-nav>ul>li>a:visited{
-	
-	text-decoration:none;
-}
-
-nav>ul>li:hover{
-	background-color: rgb(24, 230, 230);
-
 }
 
 main{
@@ -243,9 +175,9 @@ img .list{
 	
 }
 
-.biotopic{
+.topic{
 	Font-style:Bold;
-	font-size:70px;
+	font-size:50px;
 	top:30%;
 	text-decoration:underline;
 	text-align:center;
@@ -296,7 +228,7 @@ img .list{
 img{
 	height:500px;
 	align-items: center;
-	padding-left:5%;
+	padding-left:25%;
 	padding-top:5%;
 }
 
