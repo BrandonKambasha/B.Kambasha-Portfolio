@@ -5,7 +5,7 @@ h1{
 	text-decoration:underline;
 	text-align:Left;
 	padding-left: 7%;
-	display:inline;
+	display:block;
 }
 
 h2{
@@ -36,9 +36,7 @@ header{background-color:rgb(0,188,212);
 		/*z-index: 1;*/
 		}
 
-header>a{
-	visibility:hidden;
-}
+
 
 nav{
 	
@@ -95,6 +93,7 @@ nav>ul>li:hover{
 }
 
 main{
+	padding-left:3%;
 	height:100%;
 	grid-area:main;
 }
