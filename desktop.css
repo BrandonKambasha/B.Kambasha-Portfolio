@@ -6,6 +6,7 @@ h1{
 	text-align:Left;
 	padding-left: 7%;
 	display:block;
+	
 }
 
 h2{
@@ -24,16 +25,29 @@ h4{
 	font-size:18px;
 }
 
+.key1{
+	display:block;
+	width:50%;
+	height:10em;
+	float:left;	
+}
 
+.key{
+	display:block;
+	width:50%;
+	height:0.5em;;
+	float:left;
+	
+	
+}
 
 header{background-color:rgb(0,188,212);
 		color: white;
-		grid-area: header;
 		border-style: groove;
 		border-color:yellow;
 		padding-top:3%;
 		padding-bottom:3%;
-		/*z-index: 1;*/
+		grid-area: header;
 		}
 
 
@@ -43,14 +57,12 @@ nav{
 	border-style: groove;
 	border-color:yellow;
 	background-color: rgb(0,188,212);
-	/*position: fixed;*/
 	height:100%;
 	grid-area:nav;
 }
 
 footer{
 	overflow:hidden;
-	/*position: fixed;*/
 	width:100%;
 	bottom:0%;
 	color: white;
@@ -59,6 +71,7 @@ footer{
 	border-color:yellow;
 	background-color: rgb(0,188,212);
 	grid-area:footer;
+	
 	
 }
 
@@ -75,7 +88,9 @@ nav>ul>li{
 	font-style:oblique;
 	font-style:bold;
 	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	
 }
+
 
 nav>ul>li>a{
 	color:white;
@@ -97,7 +112,7 @@ nav>ul>li>a:hover{
 nav>ul>li:hover{
 	background-color: rgb(24, 230, 230);
 	border-radius:0.3em;
-	transition:1.5s;
+	transition:1s;
 	transform:rotateY(360deg);
 	
 
@@ -107,6 +122,7 @@ main{
 	padding-left:3%;
 	height:100%;
 	grid-area:main;
+	
 }
 
 body
@@ -132,7 +148,7 @@ form{
 }
 
 .submit{
-	background-color:cyan;/*light blue*/
+	background-color:cyan;
 	font-family: 'Audiowide', cursive;
 	font-size: 25px;
 	font-style: bold;
@@ -140,7 +156,7 @@ form{
 }
 
 .reset{
-	background-color:cyan;/*light blue*/
+	background-color:cyan;
 	font-family: 'Audiowide', cursive;
 	font-size: 25px;
 	font-style: bold;
@@ -188,9 +204,6 @@ textarea{
 	font-family: 'Audiowide', cursive;
 	font-size: 25px;
 }
-
-
-
 input{
 	width:100%x;
 	height:50px;
@@ -263,13 +276,41 @@ img .list{
 	
 }
 
-img{
+.port{
 	height:500px;
 	align-items: center;
 	padding-left:5%;
 	padding-top:5%;
 }
 
+.screenshot{
+	
+	height:300px;
+	width:300px;
+	margin-left:2%;
+	border:3px solid yellow;
+	
+}
+
+div{
+	height:300px;
+	border-top:3px solid black;
+	border-right:3px solid black;
+	border-left:3px solid black;
+}
+
+.shots{
+	float:left;
+	border:3px solid yellow;
+	vertical-align:middle;
+}
+
+.shots2{
+	float:right;
+	border:3px solid yellow;
+	vertical-align:bottom;
+	bottom:2em;
+}
 
 
 
