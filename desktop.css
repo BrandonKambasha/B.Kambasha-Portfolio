@@ -121,7 +121,7 @@ nav>ul>li:hover{
 	background-color: rgb(24, 230, 230);
 	border-radius:0.3em;
 	transition:1s;
-	transform:rotateY(360deg);
+	transform:rotateY(360deg);/*rotates the menu option 360 degrees*/
 	
 
 }
@@ -233,7 +233,7 @@ img .list{
 	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	
 }
-
+/*Page styling for the subtopic present on all pages*/
 .topic{
 	Font-style:Bold;
 	font-size:70px;
@@ -242,22 +242,18 @@ img .list{
 	text-align:center;
 	text-decoration-color:yellow;
 }
-
+/*Index page lyout styling of the images and the text*/
 .biopic{
 	border-radius:50%;
 	top:20%;
 	width:350px;
 	height:350px;
-	/*align-content: left;*/
 	float:left;
-	vertical-align:middle;
+	vertical-align:middle;/*(CSS Text Alignment, 2021)*/
 	
 }
 
 .biotext1{
-	/*align-content: right;
-	
-	float:right;*/
 	text-align:right;
 	padding-top: 10%;
 	padding-bottom:15%;
@@ -269,11 +265,10 @@ img .list{
 
 .biopic2{
 	border-radius:50%;
-	
 	width:350px;
 	height:350px;
 	float:right;
-	vertical-align:middle;
+	vertical-align:middle;/*(CSS Text Alignment, 2021)*/
 }
 
 .biotext2{
@@ -283,14 +278,14 @@ img .list{
 	font-family: 'Audiowide', cursive;
 	
 }
-
+/*Styling for all images on the Portfolio page*/
 .port{
 	height:500px;
 	align-items: center;
 	padding-left:5%;
 	padding-top:5%;
 }
-
+/*Formatting of the screenshots used in the site report */
 .screenshot{
 	
 	height:300px;
@@ -310,7 +305,7 @@ div{
 .shots{
 	float:left;
 	border:3px solid yellow;
-	vertical-align:middle;
+	vertical-align:middle; /*(CSS Text Alignment, 2021)*/
 }
 
 .shots2{

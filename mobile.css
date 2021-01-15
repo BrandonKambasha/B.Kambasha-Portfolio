@@ -1,3 +1,5 @@
+/*margins for the mobile version*/
+/*The mobile version being similar to the desktop css except adjusting it for mobile version*/
 *{
     margin:0;
     padding:0;
@@ -5,7 +7,7 @@
 	padding-left:0.3px;
 	padding-top:1.5px;
 }
-
+/*All the stylings for the headings and the topics*/
 h1{
 	font-style:oblique;
 	padding-top: 5%;
@@ -37,18 +39,17 @@ p{
 	font-size:18px;	
 }
 
-
+/*The header section*/
 header{background-color:rgb(0,188,212);
 		color: white;
 		grid-area: header;
-		
 		border-style: groove;
 		border-color:yellow;
-		/*z-index:-1;*/
+	
         }
 
        
-        
+        /*The menu hamburger icon for hiding the menu*/
 		.hidemenu {
 			height: 1.2em;
 			width: 2.2em;
@@ -70,8 +71,9 @@ header{background-color:rgb(0,188,212);
 			left: 0;
 			border-top: 0.2em solid black;
 			transition: 0.5s;
-			transform:skew(45deg);
+			transform:skew(45deg);/*Slies the menu out by 45 degrees*/
 		}
+		/*The hamburger icon to display the menu*/
 		.showmenu {
 			height: 1.2em;
 			width: 2.2em;
@@ -91,7 +93,7 @@ header{background-color:rgb(0,188,212);
 			left: 0px;
 			border-top: 0.2em solid black;
 		}
-		
+		/*The menu to be displayed is stylede in this navmenuj*/
 		#navmenu{
 			height: 11em;
 			width: 18em;
@@ -118,6 +120,7 @@ header{background-color:rgb(0,188,212);
 		#navmenu a:visited{
 			text-decoration: none;
 		}
+		/*This is the first state which allows for the  menu to be displayed*/
 		#clicked .showmenu{
 			display: block;
 		}
@@ -127,6 +130,7 @@ header{background-color:rgb(0,188,212);
 		#clicked #navmenu{
 			display:none;
 		}
+		/*Here the target will allow the menu to be hidden when the showmenu icon is clicked and will display the hidememnu icon*/
 		#clicked:target .showmenu{
 			display: none;	
 		}
@@ -274,15 +278,12 @@ img .list{
 	top:20%;
 	width:300px;
 	height:300px;
-	/*align-content: left;*/
-	
 	float:right;
 	vertical-align:middle;
 	
 }
 
 .biotext1{
-
 	text-align:left;
 	padding-top: 10%;
 	padding-bottom:15%;
@@ -294,7 +295,6 @@ img .list{
 
 .biopic2{
 	border-radius:50%;
-	
 	width:300px;
 	height:300px;
 	float:left;
