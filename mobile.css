@@ -33,6 +33,9 @@ h3{
 h4{
 	font-size:18px;
 }
+p{
+	font-size:18px;	
+}
 
 
 header{background-color:rgb(0,188,212);
@@ -137,7 +140,6 @@ header{background-color:rgb(0,188,212);
 
 footer{
 	overflow:hidden;
-	position: fixed;
 	width:100%;
 	bottom:0%;
 	color: white;
@@ -314,9 +316,20 @@ img .list{
 	padding-top:5%;
 }
 
+.screenshot{
+	
+	height:300px;
+	width:300px;
+	margin-left:2%;
+	border:3px solid yellow;
+	
+}
 
-
-
+.shots{
+	float:left;
+	border:3px solid yellow;
+	vertical-align:middle;
+}
 
 
 

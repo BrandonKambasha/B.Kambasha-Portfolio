@@ -1,4 +1,4 @@
-﻿
+﻿/* Styling for all headings, subtitles and text tags used*/
 h1{
 	font-style:oblique;
 	font-size:75px;
@@ -16,13 +16,21 @@ h2{
 }
 
 h3{
-
+	text-align: center;
 	text-decoration:underline;
 	font-size:25px;
 }
 
 h4{
 	font-size:18px;
+}
+p{
+	font-size:18px;	
+}
+.subtopic{
+	text-align: left;
+	font-size:19px;
+	text-decoration:underline;
 }
 
 .key1{
@@ -40,7 +48,7 @@ h4{
 	
 	
 }
-
+/*The header grid section*/
 header{background-color:rgb(0,188,212);
 		color: white;
 		border-style: groove;
@@ -51,7 +59,7 @@ header{background-color:rgb(0,188,212);
 		}
 
 
-
+/*The nav grid section*/
 nav{
 	
 	border-style: groove;
@@ -60,7 +68,7 @@ nav{
 	height:100%;
 	grid-area:nav;
 }
-
+/*The footer grid section*/
 footer{
 	overflow:hidden;
 	width:100%;
@@ -74,7 +82,7 @@ footer{
 	
 	
 }
-
+/*Styling for the menu on the nav panel*/
 nav>ul{
 	padding-top:2%;
 	position:relative;
@@ -117,14 +125,14 @@ nav>ul>li:hover{
 	
 
 }
-
+/*The main grid section*/
 main{
 	padding-left:3%;
 	height:100%;
 	grid-area:main;
 	
 }
-
+/*Assigning the grid sections to the body*/
 body
 	{display:grid;
 	grid-template-columns:20% 80%;
@@ -135,7 +143,7 @@ body
 					
 
 }
-
+/*Form styling for the contact page form and the buttons present*/
 form{
 	margin-top: 5%;
 	display:grid;
